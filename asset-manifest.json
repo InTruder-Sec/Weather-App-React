@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Projects/static/css/main.073c9b0a.css",
-    "main.js": "/React-Projects/static/js/main.dda17113.js",
+    "main.css": "/React-Projects/static/css/main.1b7db792.css",
+    "main.js": "/React-Projects/static/js/main.baac34b4.js",
     "static/js/787.7802462c.chunk.js": "/React-Projects/static/js/787.7802462c.chunk.js",
-    "static/media/logo.svg": "/React-Projects/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-Projects/index.html",
-    "main.073c9b0a.css.map": "/React-Projects/static/css/main.073c9b0a.css.map",
-    "main.dda17113.js.map": "/React-Projects/static/js/main.dda17113.js.map",
+    "main.1b7db792.css.map": "/React-Projects/static/css/main.1b7db792.css.map",
+    "main.baac34b4.js.map": "/React-Projects/static/js/main.baac34b4.js.map",
     "787.7802462c.chunk.js.map": "/React-Projects/static/js/787.7802462c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.dda17113.js"
+    "static/css/main.1b7db792.css",
+    "static/js/main.baac34b4.js"
   ]
 }
