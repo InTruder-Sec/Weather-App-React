@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Projects/static/css/main.1b7db792.css",
-    "main.js": "/React-Projects/static/js/main.baac34b4.js",
-    "static/js/787.7802462c.chunk.js": "/React-Projects/static/js/787.7802462c.chunk.js",
-    "index.html": "/React-Projects/index.html",
-    "main.1b7db792.css.map": "/React-Projects/static/css/main.1b7db792.css.map",
-    "main.baac34b4.js.map": "/React-Projects/static/js/main.baac34b4.js.map",
-    "787.7802462c.chunk.js.map": "/React-Projects/static/js/787.7802462c.chunk.js.map"
+    "main.css": "/Weather-App-React/static/css/main.3f987453.css",
+    "main.js": "/Weather-App-React/static/js/main.a2f7c2fa.js",
+    "static/js/787.7802462c.chunk.js": "/Weather-App-React/static/js/787.7802462c.chunk.js",
+    "static/media/cloudy.png": "/Weather-App-React/static/media/cloudy.d57931e05c98b72a987a.png",
+    "index.html": "/Weather-App-React/index.html",
+    "main.3f987453.css.map": "/Weather-App-React/static/css/main.3f987453.css.map",
+    "main.a2f7c2fa.js.map": "/Weather-App-React/static/js/main.a2f7c2fa.js.map",
+    "787.7802462c.chunk.js.map": "/Weather-App-React/static/js/787.7802462c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b7db792.css",
-    "static/js/main.baac34b4.js"
+    "static/css/main.3f987453.css",
+    "static/js/main.a2f7c2fa.js"
   ]
 }
