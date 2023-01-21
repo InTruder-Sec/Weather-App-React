@@ -1,5 +1,6 @@
 import './App.css';
 import Cards from './Cards';
+import Location from './CurrentLocation';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className='header-div'>
         5-Day Forecast.
       </div>
+      <Location />
       <Cards />
     </div>
   );

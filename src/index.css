@@ -14,7 +14,8 @@ code {
 }
 
 * {
-  margin: 0px
+  margin: 0px;
+  overflow-x: hidden;
 }
 
 .header-div {
@@ -45,3 +46,8 @@ code {
   text-align: center;
   height: 280px;
 } 
+
+.location {
+  font-size: 17px;
+  margin-top: 10px;
+}
