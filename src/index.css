@@ -26,7 +26,8 @@ code {
   width: 80%;
   height: 220px;
   margin-left: 10%;
-  background-color: rgb(95, 95, 95);
+  color: white;
+  background-color: rgb(51, 51, 51);
 }
 
 
@@ -34,7 +35,8 @@ code {
   width: 100%;
   padding-right: 7%;
   margin-top: 30px;
-  height: 300px;
+  height: fit-content;
+  padding-bottom: 40px;
 }
 
 .newCard {
@@ -45,9 +47,35 @@ code {
   border-radius: 10px;
   text-align: center;
   height: 280px;
+  padding: 10px;
 } 
 
 .location {
   font-size: 17px;
+  margin-top: 10px;
+}
+
+.weekDay {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.weekDate {
+  margin-top: 10px;
+}
+
+.condition {
+  margin-top: 10px;
+}
+
+.weatherImage {
+  height: 90px;
+  width: 120px;
+  margin-top: 30px;
+}
+
+.temp {
+  font-size: 20px;
+  font-weight: 600;
   margin-top: 10px;
 }

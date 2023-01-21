@@ -18,8 +18,7 @@ function mapCoords(position) {
     lat = position.coords.latitude;
     long =  position.coords.longitude;
     console.log(lat + " " + long);
-    city = getCountry(lat, long);
-    return city;
+    getCountry(lat, long);
 }
 
 function getCountry(lat, long) {
@@ -28,7 +27,7 @@ function getCountry(lat, long) {
     axios.get(url)
         .then(response => {
             city = response.data.region;
-            return(city);
+            document.getElementById("location").innerText = city;
         })
         .catch(error => {
             city = error;
@@ -38,10 +37,9 @@ function getCountry(lat, long) {
 
 
 function CurrentLoc() {
-    let City = getLocation()
-    console.log(City);
+    getLocation()
     return (
-        <div className="location">{City}</div>
+        <div className="location" id="location">...</div>
     )
 }
 
