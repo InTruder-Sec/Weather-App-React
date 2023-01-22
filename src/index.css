@@ -48,7 +48,12 @@ code {
   text-align: center;
   height: 280px;
   padding: 10px;
+  opacity: 0;
 } 
+
+.newCard0 {
+  margin-left: 0px;
+}
 
 .location {
   font-size: 17px;
@@ -70,7 +75,7 @@ code {
 
 .weatherImage {
   height: 90px;
-  width: 120px;
+  width: 110px;
   margin-top: 30px;
 }
 
@@ -79,3 +84,31 @@ code {
   font-weight: 600;
   margin-top: 10px;
 }
+
+.loadingImg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 41%;
+  margin-top: 100px;
+  animation: rotation 2s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+
