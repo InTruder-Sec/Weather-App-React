@@ -75,7 +75,7 @@ code {
 
 .weatherImage {
   height: 90px;
-  width: 110px;
+  width: 100px;
   margin-top: 30px;
 }
 
@@ -109,6 +109,12 @@ code {
 
 .infinite {
   animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 480px) {
+  .loadingImg {
+    margin-left: 30%;
+  }
 }
 
 
