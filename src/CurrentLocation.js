@@ -152,7 +152,7 @@ function getWeather(lat, long) {
                 // document.getElementById("weekDay" + t).innerText = day;
 
 
-                document.getElementById("showCards" + t).style.opacity = 1;
+                document.getElementById("showCards" + t).style.opacity = 0.8;
             }
             
             
