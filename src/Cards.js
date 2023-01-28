@@ -18,7 +18,10 @@ function Cards() {
 
 function LoadingSVG() {
     return (
-        <img src={loading} id="loading" className="loadingImg linear infinite" alt='loading...' />
+        <div className='divLoadingImg' id="loading">
+            <img src={loading}  className="loadingImg linear infinite" alt='loading...' />
+            <div className='requestLoc'>Trying to fetch location! Make sure your loaction is turned on...</div>
+        </div>
     )
 }
 

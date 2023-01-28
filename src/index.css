@@ -21,13 +21,14 @@ code {
   overflow-x: hidden;
 }
 
+
 .header-div {
   margin-top: 20px;
   font-size: 64px;
   padding-top: 70px;
   border-radius: 20px;
   width: 80%;
-  height: 220px;
+  height: 200px;
   margin-left: 10%;
   color: white;
 }
@@ -59,8 +60,9 @@ code {
 }
 
 .location {
-  font-size: 17px;
-  margin-top: 10px;
+  font-size: 19px;
+  margin-top: 20px;
+  color: white;
 }
 
 .weekDay {
@@ -90,12 +92,17 @@ code {
 }
 
 .loadingImg {
-  position: absolute;
   width: 50px;
   height: 50px;
-  margin-left: 41%;
-  margin-top: 100px;
   animation: rotation 2s;
+}
+
+
+.divLoadingImg {
+  position: absolute;
+  width: 100%;
+  height: 320px;
+  padding-top: 100px;
 }
 
 @keyframes rotation {
@@ -115,10 +122,5 @@ code {
   animation-iteration-count: infinite;
 }
 
-@media screen and (max-width: 480px) {
-  .loadingImg {
-    margin-left: 30%;
-  }
-}
 
 
